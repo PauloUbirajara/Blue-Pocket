@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="unifor.com.bluepocket">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_icon"
+        android:label="Blue Pocket"
+        android:roundIcon="@drawable/logo_icon"
+        android:supportsRtl="true"
+        android:theme="@style/FullScreen">
+        <activity android:name=".activity.RecipeMain" />
+        <activity android:name=".activity.ExpenseMain" />
+        <activity android:name=".activity.TypeMain" />
+        <activity android:name=".activity.ChartMain" />
+        <activity android:name=".activity.MensalDataMain"/>
+        <activity android:name=".activity.RecoverPasswordActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity" />
+    </application>
+
+</manifest>

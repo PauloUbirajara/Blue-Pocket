@@ -1,0 +1,14 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorBase</item>
+        <item name="colorPrimaryDark">@color/colorSecond</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">#121212</item>
+    </style>
+    <style name="FullScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorBase</item>
+        <item name="colorPrimaryDark">@color/colorSecond</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">#121212</item>
+    </style>
+</resources>

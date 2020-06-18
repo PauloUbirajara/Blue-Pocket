@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "280429594589",
+    "firebase_url": "https://blue-pocket-firebase.firebaseio.com",
+    "project_id": "blue-pocket-firebase",
+    "storage_bucket": "blue-pocket-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280429594589:android:69d83499ce9ccbad295834",
+        "android_client_info": {
+          "package_name": "unifor.com.bluepocket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280429594589-quh0pk2ml9b7va048iqdntoh7gai8ous.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVqJhWX3vscQQRvBmCGXolsyLir38BF6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280429594589-quh0pk2ml9b7va048iqdntoh7gai8ous.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

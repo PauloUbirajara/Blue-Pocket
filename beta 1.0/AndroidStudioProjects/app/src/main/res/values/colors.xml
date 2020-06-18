@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBase">#048ABF</color>
+    <color name="colorSecond">#14586D</color>
+    <color name="colorAccent">#F24F1D</color>
+    <color name="colorBackground">#DFDFDF</color>
+    <color name="colorReceita">#3935EF</color>
+    <color name="colorDespesa">#DA1616</color>
+    <color name="colorTipo">#FF9820</color>
+    <color name="colorDadosMensais">#026B1F</color>
+    <color name="colorGrafico">#370A70</color>
+</resources>

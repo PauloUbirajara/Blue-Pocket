@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BluePocket</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_header_title">Menu</string>
+    <string name="menu_recipes_button_name">Receitas</string>
+    <string name="menu_expenses_button_name">Despesas</string>
+    <string name="menu_types_button_name">Tipos</string>
+    <string name="menu_charts_button_name">Ver Gráficos</string>
+    <string name="menu_mensal_data_button_name">Dados Mensais</string>
+    <string name="chart_header_name">Ver gráfico</string>
+    <string name="expense_header_name">Despesas</string>
+    <string name="recipe_header_name">Receitas</string>
+    <string name="mensal_data_header_menu">Dados Mensais</string>
+    <string name="type_header_name">Tipos</string>
+</resources>
