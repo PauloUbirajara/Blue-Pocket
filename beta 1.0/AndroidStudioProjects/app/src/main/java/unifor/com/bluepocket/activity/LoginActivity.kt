@@ -11,6 +11,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.FirebaseDatabase
 import unifor.com.bluepocket.R
 
 class LoginActivity : AppCompatActivity(), View.OnClickListener {
@@ -24,6 +25,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var progress: AlertDialog
 
     private lateinit var mAuth: FirebaseAuth
+    private lateinit var mDatabase: FirebaseDatabase
 
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
@@ -87,6 +89,11 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
                         val intent = Intent(this, MainActivity::class.java)
                         startActivity(intent)
                         // Alternar tela se tiver inserido as informacoes corretas //
+
+                        // Limpar lacunas de informações //
+                        emailText.text = ""
+                        passwordText.text = ""
+                        // Limpar lacunas de informações //
                     } else {
                         val dialog = AlertDialog.Builder(this)
                             .setMessage("${it.exception!!.message}!")
@@ -118,6 +125,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     override fun onStart() {
         super.onStart()
         mAuth = FirebaseAuth.getInstance()
+        mDatabase = FirebaseDatabase.getInstance()
     }
 
     private fun hideKeyboard() {

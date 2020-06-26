@@ -10,6 +10,9 @@
     <string name="chart_header_name">Ver gráfico</string>
     <string name="expense_header_name">Despesas</string>
     <string name="recipe_header_name">Receitas</string>
-    <string name="mensal_data_header_menu">Dados Mensais</string>
     <string name="type_header_name">Tipos</string>
+    <string name="mensal_data_header_menu">Dados Mensais</string>
+    <string name="fragment_recipe_register_textview">Cadastro de Receitas</string>
+    <string name="fragment_expense_register_textview">Cadastro de Despesas</string>
+    <string name="fragment_type_register_textview">Cadastro de Tipos</string>
 </resources>
